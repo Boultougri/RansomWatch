@@ -1,0 +1,24 @@
+# Python
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+
+# Database — contains real detection data, don't commit
+backend/ransomwatch.db
+
+# Node
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Personal
+plan.txt
+test_folder/
