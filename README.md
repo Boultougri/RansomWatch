@@ -49,19 +49,21 @@ A sudden entropy spike on a document file is a strong indicator of encryption in
 
 ## Project Structure
 
+```
 RansomWatch/
 ├── backend/
-│ ├── main.py # FastAPI server + detection engine
-│ ├── database.py # SQLite logging
-│ ├── .env.example # Config template
-│ └── tests/
-│ ├── simulate_ransomware.py # Mass file creation simulator
-│ └── simulate_entropy.py # Encryption behavior simulator
+│   ├── main.py              # FastAPI server + detection engine
+│   ├── database.py          # SQLite logging
+│   ├── .env.example         # Config template
+│   └── tests/
+│       ├── simulate_ransomware.py   # Mass file creation simulator
+│       └── simulate_entropy.py      # Encryption behavior simulator
 └── frontend/
-├── src/
-│ ├── App.jsx # React dashboard
-│ └── index.css
-└── .env.example
+    ├── src/
+    │   ├── App.jsx          # React dashboard
+    │   └── index.css
+    └── .env.example
+```
 
 
 ---
